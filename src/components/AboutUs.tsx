@@ -33,7 +33,7 @@ const AboutUs = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Sweet Cleaner is a proudly <strong className="text-foreground">100% black women-owned</strong> commercial cleaning company based in Johannesburg, Gauteng. For over <strong className="text-foreground">6 years</strong>, we have delivered spotless, eco-friendly cleaning solutions to offices, retail spaces, factories, and event venues across Gauteng.
+              Sweet Cleaner, founded by <strong className="text-foreground">Defney Chauke</strong>, is a proudly <strong className="text-foreground">100% black women-owned</strong> commercial cleaning company based in Johannesburg, Gauteng. For over <strong className="text-foreground">6 years</strong>, we have delivered spotless, eco-friendly cleaning solutions to offices, retail spaces, factories, and event venues across Gauteng.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               We believe a clean workspace isn't a luxury — it's a necessity for productivity, health, and professional image. Our trained team uses only plant-based, non-toxic cleaning products that are safe for your staff, clients, and the environment.
