@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Building2, Sparkles, PaintBucket, PartyPopper } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const services = [
   { icon: Building2, label: "Office Cleaning" },
@@ -11,8 +12,11 @@ const services = [
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img src={heroBg} alt="Professional office cleaning team" width={1920} height={1080} className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/75 backdrop-blur-sm" />
+      </div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/8 rounded-full blur-3xl" />
 
