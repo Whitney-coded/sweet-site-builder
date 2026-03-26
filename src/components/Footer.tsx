@@ -10,8 +10,8 @@ const Footer = () => (
         © {new Date().getFullYear()} Sweet Cleaner. Eco-commercial cleaning experts in Gauteng.
       </p>
       <div className="flex gap-6 text-background/60 text-sm">
+        <a href="#about" className="hover:text-background transition-colors">About</a>
         <a href="#services" className="hover:text-background transition-colors">Services</a>
-        <a href="#packages" className="hover:text-background transition-colors">Packages</a>
         <a href="#contact" className="hover:text-background transition-colors">Contact</a>
       </div>
     </div>

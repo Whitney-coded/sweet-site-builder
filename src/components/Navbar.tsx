@@ -3,9 +3,9 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const navLinks = [
+  { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Why Us", href: "#why-us" },
-  { label: "Packages", href: "#packages" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -27,7 +27,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <img src={logo} alt="Sweet Cleaner Logo" className="h-20 sm:h-24 w-auto" />
+          <img src={logo} alt="Sweet Cleaner Logo" className="h-24 sm:h-28 md:h-32 w-auto" />
         </a>
 
         {/* Desktop */}

@@ -11,7 +11,7 @@ const services = [
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-36 sm:pt-40">
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="Professional office cleaning team" width={1920} height={1080} className="w-full h-full object-cover" />
