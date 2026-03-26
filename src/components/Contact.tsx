@@ -11,7 +11,7 @@ const Contact = () => {
     e.preventDefault();
     const msg = `Hi! I'm ${formData.name}. I need ${formData.service}. ${formData.message}. Email: ${formData.email}`;
     window.open(
-      `https://wa.me/27821234567?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/27684903917?text=${encodeURIComponent(msg)}`,
       "_blank"
     );
   };
@@ -104,7 +104,7 @@ const Contact = () => {
             <div className="space-y-5">
               {[
                 { icon: MapPin, text: "Johannesburg, Gauteng, South Africa" },
-                { icon: Phone, text: "+27 82 123 4567" },
+                { icon: Phone, text: "+27 68 490 3917" },
                 { icon: Mail, text: "info@sweetcleaner.co.za" },
                 { icon: Clock, text: "Mon – Sat: 06:00 – 18:00" },
               ].map(({ icon: Icon, text }) => (

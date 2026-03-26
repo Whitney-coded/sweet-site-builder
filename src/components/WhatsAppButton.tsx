@@ -25,7 +25,7 @@ const WhatsAppButton = () => {
               Hi there! 👋 Get a free quote for office, window, or ceiling cleaning.
             </p>
             <a
-              href="https://wa.me/27821234567?text=Quote%20for%20office%2Fwindow%2Fceiling%20cleaning%3F"
+              href="https://wa.me/27684903917?text=Quote%20for%20office%2Fwindow%2Fceiling%20cleaning%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-center bg-primary text-primary-foreground py-2.5 rounded-full font-semibold hover:bg-accent transition-colors"
