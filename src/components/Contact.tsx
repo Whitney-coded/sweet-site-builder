@@ -73,6 +73,7 @@ const Contact = () => {
                 <option value="Office Cleaning">Office Cleaning</option>
                 <option value="Window Cleaning">Window Cleaning</option>
                 <option value="Ceiling & Wall Cleaning">Ceiling & Wall Cleaning</option>
+                <option value="Event & Party Cleaning">Event & Party Cleaning</option>
                 <option value="Full Service Package">Full Service Package</option>
                 <option value="Premium Package">Premium Package</option>
               </select>
