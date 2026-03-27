@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Building2, Sparkles, PaintBucket, PartyPopper } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+
+const heroBg = "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579675/1000117142_z6qrvv.jpg";
 
 const services = [
   { icon: Building2, label: "Office Cleaning" },
@@ -15,7 +16,7 @@ const Hero = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="Professional office cleaning team" width={1920} height={1080} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-background/75 backdrop-blur-sm" />
+        <div className="absolute inset-0 bg-background/40" />
       </div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/8 rounded-full blur-3xl" />

@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import { Building2, Sparkles, PaintBucket, PartyPopper } from "lucide-react";
-import serviceOffice from "@/assets/service-office.jpg";
 import serviceWindow from "@/assets/service-window.jpg";
 import serviceCeiling from "@/assets/service-ceiling.jpg";
 import serviceEvent from "@/assets/service-event.jpg";
+
+const serviceOffice = "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579691/1000117131_toxrhs.jpg";
 
 const services = [
   {
