@@ -9,6 +9,10 @@ const galleryImages = [
     src: "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579691/1000117131_toxrhs.jpg",
     alt: "Professional office deep clean by Sweet Cleaner",
   },
+  {
+    src: "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579735/1000117168_goosb7.jpg",
+    alt: "Commercial cleaning project completed in Gauteng",
+  },
 ];
 
 const Gallery = () => {

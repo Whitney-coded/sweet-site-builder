@@ -65,7 +65,8 @@ const Services = () => {
           {services.map((service, i) => (
             <motion.div
               key={service.title}
-              className="glass rounded-3xl overflow-hidden group hover:scale-[1.03] transition-all duration-300 hover:shadow-2xl"
+              id={`service-${service.title.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}
+              className="glass rounded-3xl overflow-hidden group hover:scale-[1.03] transition-all duration-300 hover:shadow-2xl scroll-mt-28"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

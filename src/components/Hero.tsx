@@ -3,10 +3,10 @@ import { Building2, Sparkles, PaintBucket, PartyPopper } from "lucide-react";
 import heroBg from "@/assets/hero-cleaning.jpg";
 
 const services = [
-  { icon: Building2, label: "Office Cleaning" },
-  { icon: Sparkles, label: "Window Cleaning" },
-  { icon: PaintBucket, label: "Ceiling & Wall" },
-  { icon: PartyPopper, label: "Event & Party" },
+  { icon: Building2, label: "Office Cleaning", href: "#service-office-cleaning" },
+  { icon: Sparkles, label: "Window Cleaning", href: "#service-window-cleaning" },
+  { icon: PaintBucket, label: "Ceiling & Wall", href: "#service-ceiling-wall-cleaning" },
+  { icon: PartyPopper, label: "Event & Party", href: "#service-event-party-cleaning" },
 ];
 
 const Hero = () => {
@@ -60,14 +60,15 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          {services.map(({ icon: Icon, label }) => (
-            <div
+          {services.map(({ icon: Icon, label, href }) => (
+            <a
               key={label}
-              className="glass rounded-2xl px-5 py-3 sm:px-6 sm:py-4 flex items-center gap-3 hover:scale-105 transition-transform duration-200"
+              href={href}
+              className="glass rounded-2xl px-5 py-3 sm:px-6 sm:py-4 flex items-center gap-3 hover:scale-105 transition-transform duration-200 cursor-pointer"
             >
               <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
               <span className="font-semibold text-foreground text-sm sm:text-base">{label}</span>
-            </div>
+            </a>
           ))}
         </motion.div>
 
