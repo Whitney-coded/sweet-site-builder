@@ -28,7 +28,7 @@ const Footer = () => (
       </div>
       <div className="border-t border-background/10 pt-6 w-full text-center">
         <p className="text-background/60 text-sm">
-          © {new Date().getFullYear()} Sweet Cleaner. Eco-commercial cleaning experts in Gauteng.
+          © {new Date().getFullYear()} Sweet Cleaner. Commercial cleaning experts in Gauteng.
         </p>
         <p className="text-background/40 text-xs mt-2">
           Powered by <a href="https://snappybyte.studio" target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors underline">SnappyByte Studio</a>
