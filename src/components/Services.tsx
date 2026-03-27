@@ -4,7 +4,7 @@ import serviceWindow from "@/assets/service-window.jpg";
 import serviceCeiling from "@/assets/service-ceiling.jpg";
 import serviceEvent from "@/assets/service-event.jpg";
 
-const serviceOffice = "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579675/1000117142_z6qrvv.jpg";
+const serviceOffice = "https://res.cloudinary.com/dp3b16bvh/image/upload/f_auto,q_auto,w_800/v1774579675/1000117142_z6qrvv.jpg";
 
 const services = [
   {
