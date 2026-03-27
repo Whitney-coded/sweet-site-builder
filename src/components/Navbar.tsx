@@ -5,7 +5,7 @@ const logo = "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579652/Blue
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Why Us", href: "#why-us" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" },
 ];
 
