@@ -110,9 +110,9 @@
 
 @layer utilities {
   .glass {
-    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+    @apply bg-white/90 border border-white/20 shadow-xl;
   }
   .glass-green {
-    @apply bg-primary/10 backdrop-blur-lg border border-primary/20;
+    @apply bg-primary/10 border border-primary/20;
   }
 }
