@@ -26,12 +26,12 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
-          className="inline-block mb-6 px-4 py-1.5 rounded-full bg-primary/15 border border-primary/25"
+          className="inline-block mb-6 px-4 py-1.5 rounded-full bg-gold/15 border border-gold/30"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="text-primary font-semibold text-sm">100% Black Women-Owned · 6+ Years in Gauteng</span>
+          <span className="text-gold font-semibold text-sm">★ 100% Black Women-Owned · 6+ Years in Gauteng ★</span>
         </motion.div>
 
         <motion.h1
@@ -79,7 +79,7 @@ const Hero = () => {
         >
           <a
             href="#contact"
-            className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:bg-accent hover:shadow-xl transition-all duration-300"
+            className="inline-flex items-center gap-3 bg-gold text-gold-foreground px-8 py-4 rounded-full text-lg font-bold shadow-lg hover:shadow-[0_0_25px_hsl(var(--gold)/0.5)] hover:scale-105 transition-all duration-300"
           >
             Get a Free Quote
           </a>
