@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { Building2, Sparkles, PaintBucket, PartyPopper } from "lucide-react";
 
-const heroBg = "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579675/1000117142_z6qrvv.jpg";
-
 const services = [
   { icon: Building2, label: "Office Cleaning" },
   { icon: Sparkles, label: "Window Cleaning" },
@@ -12,14 +10,9 @@ const services = [
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 sm:pt-32">
-      {/* Background image */}
-      <div className="absolute inset-0">
-        <img src={heroBg} alt="Professional office cleaning team" width={1920} height={1080} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-background/40" />
-      </div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-28 sm:pt-32 bg-background">
       <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/8 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 left-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.h1
@@ -28,8 +21,8 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Office Perfection{" "}
-          <span className="text-primary">Starts Here</span>
+          Professional Commercial Cleaning{" "}
+          <span className="text-primary">in Johannesburg & Gauteng</span>
         </motion.h1>
 
         <motion.p
@@ -38,8 +31,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15 }}
         >
-          Taste the sweetness of immaculate clean. Gauteng's trusted eco-friendly
-          commercial cleaning experts.
+          Eco-friendly office, window & ceiling cleaning services for businesses across Gauteng. 100% black women-owned. Trusted by 50+ companies.
         </motion.p>
 
         {/* Service icons */}
