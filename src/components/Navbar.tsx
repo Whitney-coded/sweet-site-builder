@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
+const logo = "https://res.cloudinary.com/dp3b16bvh/image/upload/v1774579652/Blue_Modern_Cleaning_Service_Logo_20260322_124334_0000_m2hs3t.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
