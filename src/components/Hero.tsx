@@ -64,7 +64,7 @@ const Hero = () => {
             <a
               key={label}
               href={href}
-              className="glass rounded-2xl px-5 py-3 sm:px-6 sm:py-4 flex items-center gap-3 hover:scale-105 transition-transform duration-200 cursor-pointer"
+              className="glass rounded-2xl px-5 py-3 sm:px-6 sm:py-4 flex items-center gap-3 hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] hover:border-primary/50 active:shadow-[0_0_25px_hsl(var(--primary)/0.6)]"
             >
               <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
               <span className="font-semibold text-foreground text-sm sm:text-base">{label}</span>
