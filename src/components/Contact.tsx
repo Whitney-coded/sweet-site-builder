@@ -26,7 +26,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="text-primary font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
+          <span className="text-gold font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mt-2">
             Contact Us
           </h2>
@@ -88,7 +88,7 @@ const Contact = () => {
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
             </div>
-            <Button type="submit" className="w-full rounded-full bg-primary text-primary-foreground hover:bg-accent font-semibold text-base py-3 h-auto">
+            <Button type="submit" className="w-full rounded-full bg-gold text-gold-foreground hover:bg-gold/90 font-semibold text-base py-3 h-auto shadow-lg hover:shadow-[0_0_20px_hsl(var(--gold)/0.4)]">
               Send via WhatsApp
             </Button>
           </motion.form>
