@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Leaf, Users, CalendarClock, BarChart3 } from "lucide-react";
+import { ShieldCheck, Users, CalendarClock, BarChart3 } from "lucide-react";
 
 const reasons = [
   {
-    icon: Leaf,
-    title: "Eco Plant-Based Products",
-    description: "We use 100% biodegradable, plant-based cleaning products that are safe for your team and the environment.",
+    icon: ShieldCheck,
+    title: "Safe & Certified Products",
+    description: "We use only certified, plant-based cleaning products that are safe for your team and the environment.",
   },
   {
     icon: Users,

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { Leaf, Users, Award, Target, Eye, Rocket } from "lucide-react";
+import { ShieldCheck, Users, Award, Target, Eye, Rocket } from "lucide-react";
 
 const highlights = [
-  { icon: Leaf, label: "Eco-Friendly", value: "100% plant-based products" },
+  { icon: ShieldCheck, label: "Safe Products", value: "Certified plant-based products" },
   { icon: Users, label: "Black Women-Owned", value: "100% empowered leadership" },
   { icon: Award, label: "Experience", value: "6+ years in Gauteng" },
   { icon: Target, label: "Clients Served", value: "50+ happy businesses" },
@@ -33,13 +33,12 @@ const AboutUs = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Sweet Cleaner, founded by <strong className="text-foreground">Defney Chauke</strong>, is a proudly <strong className="text-foreground">100% black women-owned</strong> commercial cleaning company based in Johannesburg, Gauteng. For over <strong className="text-foreground">6 years</strong>, we have delivered spotless, eco-friendly cleaning solutions to offices, retail spaces, factories, and event venues across Gauteng.
+              Sweet Cleaner, founded by <strong className="text-foreground">Defney Chauke</strong>, is a proudly <strong className="text-foreground">100% black women-owned</strong> commercial cleaning company based in Johannesburg, Gauteng. For over <strong className="text-foreground">6 years</strong>, we have delivered spotless, professional cleaning solutions to offices, retail spaces, factories, and event venues across Gauteng.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               We believe a clean workspace isn't a luxury — it's a necessity for productivity, health, and professional image. Our trained team uses only plant-based, non-toxic cleaning products that are safe for your staff, clients, and the environment.
             </p>
 
-            {/* Mission & Vision */}
             <div className="space-y-6">
               <motion.div
                 className="glass rounded-2xl p-6"
@@ -55,7 +54,7 @@ const AboutUs = () => {
                   <h3 className="text-lg font-bold text-foreground">Our Mission</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  To provide exceptional, eco-friendly commercial cleaning services that promote healthier workplaces, empower our community, and set the standard for professional cleaning in South Africa.
+                  To provide exceptional commercial cleaning services that promote healthier workplaces, empower our community, and set the standard for professional cleaning in South Africa.
                 </p>
               </motion.div>
 
@@ -73,7 +72,7 @@ const AboutUs = () => {
                   <h3 className="text-lg font-bold text-foreground">Our Vision</h3>
                 </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  To be Gauteng's most trusted and recommended cleaning company — known for reliability, quality, and our commitment to environmental sustainability and women empowerment.
+                  To be Gauteng's most trusted and recommended cleaning company — known for reliability, quality, and our commitment to sustainability and women empowerment.
                 </p>
               </motion.div>
             </div>
